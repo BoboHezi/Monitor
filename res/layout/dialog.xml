@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dialog_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector"
+        android:text="退出当前账号"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffd0d0d0" />
+
+    <Button
+        android:id="@+id/dialog_setup"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector"
+        android:text="系统设置"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffd0d0d0" />
+
+    <Button
+        android:id="@+id/dialog_revisecode"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector"
+        android:text="修改密码"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ffd0d0d0" />
+
+</LinearLayout>
